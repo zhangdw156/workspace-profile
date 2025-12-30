@@ -34,10 +34,11 @@ export GIT_COMMITTER_EMAIL="$GIT_AUTHOR_EMAIL"
 # export GIT_DISCOVERY_ACROSS_FILESYSTEM=1
 # 或者直接配置 global
 git config --global --replace-all safe.directory '*' 2>/dev/null
-
+git config --global core.editor "vim"
 
 # -- others ---
 export SWANLAB_API_KEY="6NyFPQgTf8sbLDTYY48c3"
+export SWANLAB_MODE=local
 
 # --- 清理函数 (可选) ---
 # 脚本执行完后取消定义函数，保持环境干净
